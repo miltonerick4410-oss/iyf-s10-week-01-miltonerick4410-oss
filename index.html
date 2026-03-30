@@ -3,32 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milton Erick - About Me</title>
+    <title>Milton Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Milton Erick</h1>
+    <nav>
+        <h2>Milton</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <p>Hello! My name is Milton Erick. I am learning web development and this is my first webpage.</p>
+    <header class="hero">
+        <h1>Hello, I'm Milton Erick Otieno</h1>
+        <p><i>Aspiring Web Developer building modern websites</i></p>
+    </header>
 
-    <img src="https://placeholder.co/300x200" alt="Placeholder Image">
+    <main class="container">
 
-    <h2>My Hobbies</h2>
-    <ul>
-        <li>Coding</li>
-        <li>Music</li>
-        <li>Football</li>
-    </ul>
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate web development student who enjoys creating clean and responsive websites.
+                I am constantly improving my skills and learning new technologies.
+            </p>
+        </section>
 
-    <p>
-        Visit my favorite website:
-        <a href="https://www.youtube.com" target="_blank">YouTube</a>
-    </p>
+        <section id="skills" class="card">
+            <h2>Skills</h2>
+            <div class="grid">
+                <div class="box">HTML</div>
+                <div class="box">CSS</div>
+                <div class="box">JavaScript</div>
+            </div>
+        </section>
 
-    <p>
-        Contact me:
-        <a href="mailto:miltonerick4410@gmail.com">miltonerick4410@gmail.com</a>
-    </p>
+        <section id="projects" class="card">
+            <h2>Projects</h2>
+            <div class="grid">
+                <div class="box">Portfolio Website</div>
+                <div class="box">Coming Soon</div>
+                <div class="box">Coming Soon</div>
+            </div>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Contact</h2>
+            <p>Email: miltonerick4410@gmail.com</p>
+            <p>Phone: +254111748596</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Milton Erick</p>
+    </footer>
 
 </body>
 </html>
